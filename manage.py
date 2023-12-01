@@ -3,7 +3,7 @@
 import os
 import sys
 
-# This is manage.py controller module
+# This is manage.py module responsible for application management
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'skillmate.settings')
